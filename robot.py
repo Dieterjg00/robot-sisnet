@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import Select
 
 print('Llega inicial')
 
-driver = webdriver.Chrome(executable_path= r'./chromedriver.exe')
+driver = webdriver.Chrome(executable_path='./chromedriver')
 
 driver.get('https://www.netpolizas.com/admin/login')
 
